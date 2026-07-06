@@ -994,16 +994,16 @@ Chuẩn bị sẵn câu trả lời cho:
 ## Checklist cuối buổi
 
 ```
-[ ] docker compose ps — tất cả services Up
-[ ] python scripts/01_ingest_to_kafka.py — OK
-[ ] Prefect flow "kafka-to-delta" deploy thành công
-[ ] python scripts/05_embed_to_qdrant.py — OK
-[ ] curl http://localhost:8000/api/v1/chat — nhận response
-[ ] pytest smoke-tests/ -v — 5/5 PASSED
-[ ] python scripts/production_readiness_check.py — score >= 80%
-[ ] Grafana dashboard có metrics
-[ ] Kaggle notebook vẫn chạy (kernel active)
-[ ] Demo script đã chạy thử 1 lần
+[x] docker compose ps — tất cả services Up
+[x] python scripts/01_ingest_to_kafka.py — OK
+[x] Prefect flow "kafka-to-delta" deploy thành công
+[x] python scripts/05_embed_to_qdrant.py — OK
+[x] curl http://localhost:8000/api/v1/chat — nhận response
+[x] pytest smoke-tests/ -v — 5/5 PASSED
+[x] python scripts/production_readiness_check.py — score >= 80%
+[x] Grafana dashboard có metrics
+[x] Kaggle notebook vẫn chạy (kernel active)
+[x] Demo script đã chạy thử 1 lần
 ```
 
 ---

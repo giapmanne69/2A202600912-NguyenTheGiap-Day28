@@ -368,7 +368,7 @@ docker compose logs prefect-worker
 **Kafka consumer lag:**
 ```bash
 # Kiểm tra topic
-docker exec lab28-kafka-1 kafka-topics --list --bootstrap-server localhost:9092
+docker exec <kafka-container-name> kafka-topics --list --bootstrap-server localhost:9092
 ```
 
 ## Nộp Bài
